@@ -1,0 +1,74 @@
+/* Reseteo de margenes por defecto */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 10px 0;
+    z-index: 10;
+    width: 100%;
+}
+
+/* HEADER */
+header img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* PRESENTACION */
+/* #icon {
+    background-color: aqua;
+} */
+
+.text-presentation {
+    text-align: left;
+    font-family: 'Open' sans;
+    font-size: 20px;
+}
+
+/* Desaparecer carrusel en Mobile */
+/* @media(max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+} */
+
+/* DESTACADOS */
+.card-body {
+    background-color: aqua;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* CONTACTO */
+/* #contacto button {
+    background-color: aqua;
+    color: #FFFFFF;
+} */
+
+/* FOOTER */
+footer {
+    background-color: aqua;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open' sans;
+    font-size: 25px;
+}
