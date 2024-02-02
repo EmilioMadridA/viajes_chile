@@ -41,11 +41,11 @@ header img {
 }
 
 /* Desaparecer carrusel en Mobile */
-/* @media(max-width: 767px) {
+@media(max-width: 767px) {
     .hidden-mobile {
         display: none;
     }
-} */
+}
 
 /* DESTACADOS */
 .card-body {
